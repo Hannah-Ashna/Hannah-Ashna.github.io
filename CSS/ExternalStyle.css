@@ -99,11 +99,3 @@ hr {
     border: 1px solid white;
     border-radius: 5px;
 }
-
-/* Shrink carousel image size */
-.carousel{
-    height: 500px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-}
