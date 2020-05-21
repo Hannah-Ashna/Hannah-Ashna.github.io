@@ -4,18 +4,22 @@
 }
 
 .navbar a {
-    color:white;
+    color:grey;
     float: left;
-	color:#FFFFFF;
 	display: block;
 	padding: 14px 16px;
 	text-decoration: none;
     font-size: 20px;
     font-family: 'Signika', sans-serif;
 }
-.navbar a:hover{
+.navbar a:hover {
     color:#FF9900;
 }
+
+.nav-item.active .nav-link{
+    color: white;
+}
+
 
 .dropdown-menu {
     background-color: #181818;
@@ -24,6 +28,7 @@
 .dropdown-menu a:hover{
     background-color: #181818;
 }
+
 
 /* Custom Title Style */
 .TopicTitle {
@@ -60,7 +65,7 @@
 
 
 /* Animate the icons to shake when hovered over*/
-.icon:hover{
+.icon:hover {
 	animation: shake 1.0s;
   
 	/* When the animation is finished, start again */
@@ -83,7 +88,7 @@
   }
 
 /* Author profile rouded image */
-.AuthorProfile{
+.AuthorProfile {
 	border-radius: 50%;
 	display: block;
 	margin-left: auto;
