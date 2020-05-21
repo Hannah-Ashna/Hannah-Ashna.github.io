@@ -1,6 +1,94 @@
-/* Change color of the line */
-.hr{
-    color: blue;
+/* Customise the Navigation Bar */
+.navbar {
+    background-color:#181818;
 }
 
-/* Custom Paragraph Design*/
+.navbar a {
+    color:white;
+}
+.navbar a:hover{
+    color:#FF9900;
+}
+
+.dropdown-menu {
+    background-color: #181818;
+}
+
+.dropdown-menu a:hover{
+    background-color: #181818;
+}
+
+/* Custom Title Style */
+.TopicTitle {
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    color:#FF9900;
+}
+
+/* Custom Paragraph Style */
+.ParagraphStyle {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-align: justify;
+}
+
+/* Custom Footer text style*/
+.FooterStyle {
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Social media icons */
+.icon {	
+	width: 50px;
+	height: auto;
+	border-radius: 50%;
+	min-width: 15px;
+    min-height: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+/* Animate the icons to shake when hovered over*/
+.icon:hover{
+	animation: shake 1.0s;
+  
+	/* When the animation is finished, start again */
+	animation-iteration-count: infinite;
+  }
+  
+  /* The values for the image to "rotate" */
+  @keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+/* Author profile rouded image */
+.AuthorProfile{
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	/* Make the image responsive to the screen size */
+	max-width: 100px;
+	height: auto;
+}
+
+/* Customise the horizontal line */
+hr {
+    border: 1px solid white;
+    border-radius: 5px;
+}
