@@ -81,6 +81,15 @@ body {
     margin-right: auto;
 }
 
+/* Social Media Icons */
+.socials {
+    width: 40%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Remove UL Dots */
 ul {
     list-style-type: none;
