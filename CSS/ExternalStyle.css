@@ -82,7 +82,9 @@ hr {
     border-radius: 5px;
 }
 
-/* Customise Background*/
+/* Customise Background and other features for the main body*/
 body {
     background-color: #E6E8E6;
+    overflow: auto;
 }
+
