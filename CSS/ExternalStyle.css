@@ -29,60 +29,10 @@
     background-color: #181818;
 }
 
-
-i:hover {
-    transform: scale(1.1);
-}
-/* Custom Title Style */
-.TopicTitle {
-    font-family: 'Signika', sans-serif;
-    text-align: center;
-    /*color:#FF9900;*/
-    color: #181818;
-}
-
-/* Custom Paragraph Style */
-.ParagraphStyle {
-    font-family: 'Roboto Slab', serif;
-    color: #181818;
-    text-align: justify;
-}
-
-/* Custom Footer text style*/
-.FooterStyle {
-    font-family: 'Signika', sans-serif;
-    color: #181818;
-    text-align: center;
-}
-
-/* Social media icons */
-.icon {	
-	width: 50px;
-	height: auto;
-	border-radius: 50%;
-	min-width: 15px;
-    min-height: 15px;
+i{
     display: block;
     margin-left: auto;
-    margin-right: auto;   
-}
-
-/* Author profile rouded image */
-.AuthorProfile {
-	border-radius: 50%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-
-	/* Make the image responsive to the screen size */
-	max-width: 100px;
-	height: auto;
-}
-
-/* Customise the horizontal line */
-hr {
-    border: 1px solid #181818;
-    border-radius: 5px;
+    margin-right: auto;
 }
 
 /* Customise Background and other features for the main body*/
@@ -91,3 +41,36 @@ body {
     overflow: auto;
 }
 
+/* Customise look of the content boxes */
+.content-box {
+    background: grey;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-radius: 5px;
+}
+
+/* Customise Status Box*/
+.status-box {
+    background-color:white;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+}
+
+/* Gap Between Rows */
+.top-buffer { margin-top:20px; }
+
+/* Author Profile Image*/
+.author-profile {
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Remove UL Dots */
+ul {
+    list-style-type: none;
+}
