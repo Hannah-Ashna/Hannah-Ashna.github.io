@@ -30,6 +30,9 @@
 }
 
 
+i:hover {
+    transform: scale(1.1);
+}
 /* Custom Title Style */
 .TopicTitle {
     font-family: 'Signika', sans-serif;
