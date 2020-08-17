@@ -76,6 +76,13 @@ body {
     border: 0;
 }
 
+/* Hide Profile pictures on smaller screens*/
+@media (max-width: 400px) {
+    #user-img {
+        display: none;
+    }
+}
+
 
 /* Gap Between Rows */
 .top-buffer { margin-top:20px; }
@@ -109,8 +116,10 @@ ul {
     list-style-type: none;
 }
 
-@media (max-width: 400px) {
-    #user-img {
-        display: none;
-    }
-}
+
+/* Sticky Element */
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
