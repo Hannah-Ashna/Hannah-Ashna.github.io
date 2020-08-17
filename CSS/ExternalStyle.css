@@ -92,8 +92,7 @@ body {
 /* Social Media Icons */
 .socials {
     padding: 20px;
-    font-size: 30px;
-    width: 200px;
+    width: 100px;
     text-align: center;
     border-radius: 50%;
     color: white;
@@ -109,4 +108,5 @@ body {
 ul {
     list-style-type: none;
 }
+
 
