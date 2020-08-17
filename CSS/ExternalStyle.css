@@ -109,4 +109,8 @@ ul {
     list-style-type: none;
 }
 
-
+@media (max-width: 400px) {
+    #user-img {
+        display: none;
+    }
+}
