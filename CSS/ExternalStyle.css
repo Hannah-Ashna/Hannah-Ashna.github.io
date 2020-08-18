@@ -72,10 +72,12 @@ a:hover,a:focus{
     color: rgb(194, 193, 193);
     line-height: 25px;
     letter-spacing: 1px;
+    border-radius: 5px;
 }
 .tab .tab-content h3{
     font-size: 24px;
     margin-top: 0;
+    border-radius: 5px;
 }
 @media only screen and (max-width: 479px){
     .tab .nav-tabs li{
