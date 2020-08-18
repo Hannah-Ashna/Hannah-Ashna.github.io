@@ -56,11 +56,26 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 
-// Alert on-click
+// Alert on-click for all 4 sections
 $('#warning').click(function (e) {
-    e.preventDefault()
-    $('#message').html('<div class="alert alert-danger fade-in"><button type="button" class="close close-alert" data-dismiss="alert" aria-hidden="true">×</button><strong>Alert:</strong> You are not authorized to make any changes</div>');
+  e.preventDefault()
+  $('#message').html('<div class="alert alert-danger fade-in"><button type="button" class="close close-alert" data-dismiss="alert" aria-hidden="true">×</button><strong>Alert:</strong> You are not authorized to make any changes</div>');
   })
+
+$('#warning2').click(function (e) {
+  e.preventDefault()
+  $('#message2').html('<div class="alert alert-danger fade-in"><button type="button" class="close close-alert" data-dismiss="alert" aria-hidden="true">×</button><strong>Alert:</strong> You are not authorized to make any changes</div>');
+})
+
+$('#warning3').click(function (e) {
+  e.preventDefault()
+  $('#message3').html('<div class="alert alert-danger fade-in"><button type="button" class="close close-alert" data-dismiss="alert" aria-hidden="true">×</button><strong>Alert:</strong> You are not authorized to make any changes</div>');
+})
+
+$('#warning4').click(function (e) {
+  e.preventDefault()
+  $('#message4').html('<div class="alert alert-danger fade-in"><button type="button" class="close close-alert" data-dismiss="alert" aria-hidden="true">×</button><strong>Alert:</strong> You are not authorized to make any changes</div>');
+})
 
 // Like Post Function
 function likePost(x) {
