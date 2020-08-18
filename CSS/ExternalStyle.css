@@ -12,13 +12,15 @@
     font-size: 20px;
     font-family: 'Signika', sans-serif;
 }
+
 .navbar a:hover {
     color:#F39237;
 }
 
-.nav-item.active .nav-link{
+/*.nav-item.active .nav-link{
     color: white;
-}
+    background: white;
+}*/
 
 
 .dropdown-menu {
@@ -35,10 +37,52 @@ i{
     margin-right: auto;
 }
 
-/* Customise Background and other features for the main body*/
-body {
-    background-color: #F7F7F2;
 
+/* Customise Background and other features for the main body*/
+a:hover,a:focus{
+    outline: none;
+    text-decoration: none;
+}
+.tab .nav-tabs{
+    border: none;
+    margin-bottom: 20px;
+}
+.tab .nav-tabs li a{
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    background: #aaaaaa;
+    position: relative;
+    padding: 10px;
+    transition: all 0.5s ease 0s;
+
+}
+.tab .nav-tabs li a:hover,
+.tab .nav-tabs li.active a{
+    color: #F39237;
+    background: #272626;
+}
+.tab .tab-content{
+    padding: 20px;
+    background: #272626;
+    box-shadow: 5px 5px 0 0 #aaaaaa;
+    border: 1px solid #aaaaaa;
+    font-size: 15px;
+    color: rgb(194, 193, 193);
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.tab .tab-content h3{
+    font-size: 24px;
+    margin-top: 0;
+}
+@media only screen and (max-width: 479px){
+    .tab .nav-tabs li{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }
 
 /* Customise look of the content boxes */
