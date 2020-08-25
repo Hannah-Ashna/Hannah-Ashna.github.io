@@ -38,7 +38,7 @@ i{
 }
 
 
-/* Customise Background and other features for the main body*/
+/* Customise Background and other features for the Settings Page*/
 a:hover,a:focus{
     outline: none;
     text-decoration: none;
@@ -176,3 +176,4 @@ div.sticky {
     border: 2px, solid, white;
     border-radius: 5px;
 }
+
