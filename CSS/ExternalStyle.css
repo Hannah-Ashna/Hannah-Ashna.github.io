@@ -225,7 +225,7 @@ div.sticky {
 .users-container {
     position: relative;
     padding: 1rem 0;
-    border-right: 1px solid #aaaaaa;
+    border-right: 1px solid #7c7c7c;
     height: 100%;
     display: -ms-flexbox;
     display: flex;
@@ -250,7 +250,7 @@ div.sticky {
     width: 100%;
     padding: 10px 1rem;
     cursor: pointer;
-    border-bottom: 1px solid #aaaaaa;
+    border-bottom: 1px solid #7c7c7c;
     color: white;
 }
 
@@ -370,7 +370,7 @@ div.sticky {
     padding: 0 15px;
     min-height: 64px;
     line-height: 64px;
-    border-bottom: 1px solid #aaaaaa;
+    border-bottom: 1px solid #7c7c7c;
     -webkit-border-radius: 0 3px 0 0;
     -moz-border-radius: 0 3px 0 0;
     border-radius: 0 3px 0 0;
