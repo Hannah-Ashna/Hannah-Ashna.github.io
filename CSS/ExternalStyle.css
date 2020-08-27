@@ -225,12 +225,13 @@ div.sticky {
 .users-container {
     position: relative;
     padding: 1rem 0;
-    border-right: 1px solid #e6ecf3;
+    border-right: 1px solid #aaaaaa;
     height: 100%;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
+
 }
 
 
@@ -249,39 +250,40 @@ div.sticky {
     width: 100%;
     padding: 10px 1rem;
     cursor: pointer;
-    border-bottom: 1px solid #f0f4f8;
+    border-bottom: 1px solid #aaaaaa;
+    color: white;
 }
 
 .users .person:hover {
-    background-color: #ffffff;
+    background-color: #444343;
     /* Fallback Color */
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#e9eff5), to(#ffffff));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#444343), to(#444343));
     /* Saf4+, Chrome */
-    background-image: -webkit-linear-gradient(right, #e9eff5, #ffffff);
+    background-image: -webkit-linear-gradient(right, #444343, #444343);
     /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: -moz-linear-gradient(right, #e9eff5, #ffffff);
+    background-image: -moz-linear-gradient(right, #444343, #444343);
     /* FF3.6 */
-    background-image: -ms-linear-gradient(right, #e9eff5, #ffffff);
+    background-image: -ms-linear-gradient(right, #444343, #444343);
     /* IE10 */
-    background-image: -o-linear-gradient(right, #e9eff5, #ffffff);
+    background-image: -o-linear-gradient(right, #444343, #444343);
     /* Opera 11.10+ */
-    background-image: linear-gradient(right, #e9eff5, #ffffff);
+    background-image: linear-gradient(right, #444343, #444343);
 }
 
 .users .person.active-user {
-    background-color: #ffffff;
+    background-color: #272626;
     /* Fallback Color */
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f9fb), to(#ffffff));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#383737), to(#272626));
     /* Saf4+, Chrome */
-    background-image: -webkit-linear-gradient(right, #f7f9fb, #ffffff);
+    background-image: -webkit-linear-gradient(right,#383737, #272626);
     /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: -moz-linear-gradient(right, #f7f9fb, #ffffff);
+    background-image: -moz-linear-gradient(right, #383737, #272626);
     /* FF3.6 */
-    background-image: -ms-linear-gradient(right, #f7f9fb, #ffffff);
+    background-image: -ms-linear-gradient(right, #383737, #272626);
     /* IE10 */
-    background-image: -o-linear-gradient(right, #f7f9fb, #ffffff);
+    background-image: -o-linear-gradient(right, #383737, #272626);
     /* Opera 11.10+ */
-    background-image: linear-gradient(right, #f7f9fb, #ffffff);
+    background-image: linear-gradient(right, #383737, #272626);
 }
 
 .users .person:last-child {
@@ -368,10 +370,11 @@ div.sticky {
     padding: 0 15px;
     min-height: 64px;
     line-height: 64px;
-    border-bottom: 1px solid #e6ecf3;
+    border-bottom: 1px solid #aaaaaa;
     -webkit-border-radius: 0 3px 0 0;
     -moz-border-radius: 0 3px 0 0;
     border-radius: 0 3px 0 0;
+    color: white;
 }
 
 .selected-user span {
@@ -418,7 +421,7 @@ div.sticky {
 
 .chat-container li .chat-name {
     font-size: .75rem;
-    color: #999999;
+    color: white;
     text-align: center;
 }
 
@@ -427,7 +430,7 @@ div.sticky {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    background: #ffffff;
+    background: #f0f0f0;
     font-weight: 300;
     line-height: 150%;
     position: relative;
@@ -441,7 +444,7 @@ div.sticky {
     top: 10px;
     left: -20px;
     border: 10px solid;
-    border-color: transparent #ffffff transparent transparent;
+    border-color: transparent #f0f0f0 transparent transparent;
 }
 
 .chat-container li.chat-right > .chat-text {
@@ -450,7 +453,7 @@ div.sticky {
 
 .chat-container li.chat-right > .chat-text:before {
     right: -20px;
-    border-color: transparent transparent transparent #ffffff;
+    border-color: transparent transparent transparent #f0f0f0;
     left: inherit;
 }
 
@@ -463,6 +466,7 @@ div.sticky {
     align-items: center;
     justify-content: center;
     margin: 0 0 0 15px;
+    color: white;
 }
 
 .chat-container li .chat-hour > span {
@@ -527,10 +531,10 @@ div.sticky {
 
 .card {
     border: 0;
-    background: #f4f5fb;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
+    background: #272626;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     margin-bottom: 2rem;
     box-shadow: none;
 }
