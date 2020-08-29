@@ -177,6 +177,14 @@ div.sticky {
     border-radius: 5px;
 }
 
+/* Change Badge colour on hover */
+.badge-secondary:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
 /* Messages.html CSS */
 .chat-search-box {
     -webkit-border-radius: 3px 0 0 0;
