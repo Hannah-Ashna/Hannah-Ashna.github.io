@@ -79,5 +79,5 @@ $('#warning4').click(function (e) {
 
 // Like Post Function
 function likePost(x) {
-    x.classList.toggle("fa-thumbs-down");
+    x.classList.toggle("fas");
   }
